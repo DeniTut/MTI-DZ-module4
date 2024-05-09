@@ -1,0 +1,291 @@
+body{
+    margin: 0; 
+}
+
+/* header */
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 150px;
+    }
+
+    background-color: #8184A3;
+
+    height: 100px;
+}
+
+.header-menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70%;   
+    }
+    width: 70%;
+}
+
+.logo-img{
+    height: 100px;
+    @media (max-width: 480px) {
+        display: none; 
+    }
+}
+
+.price{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 85px;
+    width: 200px;
+
+    @media (max-width: 480px) {
+        height: 50px;
+        width: 70%;
+    }
+}
+
+.reviews, .contacts{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+
+    height: 85px;
+    width: 150px;
+
+    @media (max-width: 480px) {
+        height: 50px;
+    }
+}
+
+.price:hover, .reviews:hover, .contacts:hover{
+    background-color: #7579A3;
+    border-radius: 15px;
+}
+
+/* main */
+
+.after-head{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+
+    background-color: #424568;
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.background{
+    width: 40%;
+    height: 700px;
+
+    @media (max-width: 480px) {
+        display: none;
+    }
+    
+}
+
+.description{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 300px;
+    width: 50%;
+
+    background-color: #7579A3;
+    border-radius: 20px;
+
+    @media (max-width: 480px) {
+        width: 70%;
+        margin: 50px;
+    }
+    
+}
+
+.back{
+    object-fit: contain;
+
+    width: 90%;
+    height: 90%;
+
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.descr{
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+
+    @media (max-width: 480px) {
+        font-size: 1em;
+        width: 90%;
+    }
+}
+
+.price-descr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 600px;
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 800px;
+    }
+}
+
+.price-head, .head-reviews{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #8184A3;
+
+    height: 100px;
+    
+    @media (max-width: 480px) {
+        height: 70px;
+    }
+
+}
+
+.span-price{
+    text-align: center;
+    font-weight: 500;
+
+    font-size: 2em;
+    
+    @media (max-width: 480px) {
+        font-size: 1.4em;
+    }
+}
+
+.menu-price{
+    background-color: #424568;
+}
+
+.exp{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 70%;
+
+    background-color: #7579A3;
+    border-radius: 20px;
+
+    margin: 50px;
+
+    @media (max-width: 480px) {
+        margin: 10px;
+        width: 70%;
+        
+    }
+}
+
+.span-exp{
+    text-align: center;
+    font-size: 1.5em;
+
+    @media (max-width: 480px) {
+        font-size: 1em;
+    }
+    
+}
+
+.main-reviews{
+    background-color: #424568;
+}
+
+.head-rev-span{
+    text-align: center;
+    font-weight: 500;
+    font-size: 2em;
+
+    @media (max-width: 480px) {
+        font-size: 1.4em;
+    }
+}
+
+.head-reviews{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.review-exp{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 600px;
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 500px;
+    }
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100px;
+    background-color: #8184A3;
+
+    @media (max-width: 480px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        height: 150px;
+    }
+
+}
+
+.quick-contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    width: 400px;
+
+    background-color: rgb(173, 168, 88);
+    border-radius: 20px;
+}
+
+.normal-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
